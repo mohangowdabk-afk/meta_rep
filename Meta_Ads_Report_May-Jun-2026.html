@@ -653,6 +653,123 @@
     <strong>Methodology:</strong> P2 = contacts with PAID_SOCIAL traffic source OR Meta form field populated · P1 = contacts with Meta form field populated · Source: Bigin CRM · Pulled Jun 19, 2026
   </div>
 
+  <!-- SQL + HOT LEADS + REVENUE -->
+  <div class="section-title" style="margin-top:8px">Meta Leads — SQL, Hot Leads & Revenue by Customer (P1 vs P2)</div>
+
+  <!-- Funnel summary cards -->
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--grey-200);border:1px solid var(--grey-200);border-radius:10px;overflow:hidden;margin-bottom:20px">
+    <div style="background:var(--white);padding:18px 20px;text-align:center">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--grey-600);margin-bottom:8px">Total Meta Leads</div>
+      <div style="display:flex;justify-content:center;gap:24px">
+        <div><div style="font-size:11px;color:var(--amber);font-weight:700;margin-bottom:4px">P2</div><div style="font-size:26px;font-weight:800;color:var(--grey-800)">609</div></div>
+        <div><div style="font-size:11px;color:var(--blue);font-weight:700;margin-bottom:4px">P1</div><div style="font-size:26px;font-weight:800;color:var(--grey-800)">282</div></div>
+      </div>
+    </div>
+    <div style="background:var(--white);padding:18px 20px;text-align:center">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--grey-600);margin-bottom:8px">Hot Leads <span style="font-weight:400;font-size:9px">(PS + RCB)</span></div>
+      <div style="display:flex;justify-content:center;gap:24px">
+        <div><div style="font-size:11px;color:var(--amber);font-weight:700;margin-bottom:4px">P2</div><div style="font-size:26px;font-weight:800;color:var(--grey-800)">247</div><div style="font-size:10px;color:var(--grey-600)">40.6%</div></div>
+        <div><div style="font-size:11px;color:var(--blue);font-weight:700;margin-bottom:4px">P1</div><div style="font-size:26px;font-weight:800;color:var(--grey-800)">116</div><div style="font-size:10px;color:var(--grey-600)">41.1%</div></div>
+      </div>
+    </div>
+    <div style="background:var(--white);padding:18px 20px;text-align:center">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--green);margin-bottom:8px">SQLs <span style="font-weight:400;font-size:9px;color:var(--grey-600)">(Proposal Shared)</span></div>
+      <div style="display:flex;justify-content:center;gap:24px">
+        <div><div style="font-size:11px;color:var(--amber);font-weight:700;margin-bottom:4px">P2</div><div style="font-size:26px;font-weight:800;color:var(--green)">177</div><div style="font-size:10px;color:var(--grey-600)">29.1%</div></div>
+        <div><div style="font-size:11px;color:var(--blue);font-weight:700;margin-bottom:4px">P1</div><div style="font-size:26px;font-weight:800;color:var(--green)">87</div><div style="font-size:10px;color:var(--grey-600)">30.9%</div></div>
+      </div>
+    </div>
+    <div style="background:var(--white);padding:18px 20px;text-align:center">
+      <div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--grey-600);margin-bottom:8px">Requested Call Back</div>
+      <div style="display:flex;justify-content:center;gap:24px">
+        <div><div style="font-size:11px;color:var(--amber);font-weight:700;margin-bottom:4px">P2</div><div style="font-size:26px;font-weight:800;color:var(--grey-800)">70</div><div style="font-size:10px;color:var(--grey-600)">11.5%</div></div>
+        <div><div style="font-size:11px;color:var(--blue);font-weight:700;margin-bottom:4px">P1</div><div style="font-size:26px;font-weight:800;color:var(--grey-800)">29</div><div style="font-size:10px;color:var(--grey-600)">10.3%</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Conversion funnel bar -->
+  <div class="table-wrap" style="margin-bottom:20px">
+    <div style="padding:13px 16px;border-bottom:1px solid var(--grey-200);font-size:12px;font-weight:700;color:var(--grey-800)">Meta Lead Conversion Funnel</div>
+    <div style="padding:20px 24px">
+      <div style="margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:600;margin-bottom:5px"><span>Total Leads</span><span><span style="color:var(--amber)">P2: 609</span> &nbsp;/&nbsp; <span style="color:var(--blue)">P1: 282</span></span></div>
+        <div style="height:8px;background:var(--grey-100);border-radius:4px;overflow:hidden;display:flex;gap:2px">
+          <div style="flex:609;background:var(--amber);border-radius:4px"></div>
+          <div style="flex:282;background:var(--blue);border-radius:4px"></div>
+        </div>
+      </div>
+      <div style="margin-bottom:16px">
+        <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:600;margin-bottom:5px"><span>Hot Leads (Proposal + Call Back)</span><span><span style="color:var(--amber)">P2: 247 (40.6%)</span> &nbsp;/&nbsp; <span style="color:var(--blue)">P1: 116 (41.1%)</span></span></div>
+        <div style="height:8px;background:var(--grey-100);border-radius:4px;overflow:hidden;display:flex;gap:2px">
+          <div style="width:40.6%;background:var(--amber);border-radius:4px"></div>
+          <div style="width:41.1%;background:var(--blue);border-radius:4px"></div>
+        </div>
+      </div>
+      <div>
+        <div style="display:flex;justify-content:space-between;font-size:11px;font-weight:600;margin-bottom:5px"><span>SQLs (Proposal Shared)</span><span><span style="color:var(--amber)">P2: 177 (29.1%)</span> &nbsp;/&nbsp; <span style="color:var(--blue)">P1: 87 (30.9%)</span></span></div>
+        <div style="height:8px;background:var(--grey-100);border-radius:4px;overflow:hidden;display:flex;gap:2px">
+          <div style="width:29.1%;background:var(--amber);border-radius:4px"></div>
+          <div style="width:30.9%;background:var(--blue);border-radius:4px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SQL by customer type + Revenue note -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px">
+
+    <div class="table-wrap" style="margin-bottom:0">
+      <div style="padding:13px 16px;border-bottom:1px solid var(--grey-200);font-size:12px;font-weight:700;color:var(--grey-800)">SQLs by Customer Type</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Customer Type</th>
+            <th class="num"><span class="pill pill-p2">P2</span></th>
+            <th class="num">P2 %</th>
+            <th class="num"><span class="pill pill-p1">P1</span></th>
+            <th class="num">P1 %</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>CPO</strong></td><td class="num" style="font-weight:700;color:var(--green)">94</td><td class="num">53.1%</td><td class="num" style="font-weight:700;color:var(--green)">46</td><td class="num">52.9%</td></tr>
+          <tr><td>Individual</td><td class="num">25</td><td class="num">14.1%</td><td class="num">19</td><td class="num">21.8%</td></tr>
+          <tr><td>RWA</td><td class="num">3</td><td class="num">1.7%</td><td class="num">2</td><td class="num">2.3%</td></tr>
+          <tr><td style="color:var(--grey-600)">Unclassified</td><td class="num" style="color:var(--grey-600)">55</td><td class="num">31.1%</td><td class="num" style="color:var(--grey-600)">20</td><td class="num">23.0%</td></tr>
+          <tr style="border-top:2px solid var(--grey-200);font-weight:700"><td>Total SQLs</td><td class="num">177</td><td></td><td class="num">87</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="table-wrap" style="margin-bottom:0">
+      <div style="padding:13px 16px;border-bottom:1px solid var(--grey-200);font-size:12px;font-weight:700;color:var(--grey-800)">Hot Leads by Customer Type</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Customer Type</th>
+            <th class="num"><span class="pill pill-p2">P2</span></th>
+            <th class="num">P2 %</th>
+            <th class="num"><span class="pill pill-p1">P1</span></th>
+            <th class="num">P1 %</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>CPO</strong></td><td class="num" style="font-weight:700;color:var(--green)">94</td><td class="num">38.1%</td><td class="num" style="font-weight:700;color:var(--green)">46</td><td class="num">39.7%</td></tr>
+          <tr><td>Individual</td><td class="num">25</td><td class="num">10.1%</td><td class="num">19</td><td class="num">16.4%</td></tr>
+          <tr><td>RWA</td><td class="num">3</td><td class="num">1.2%</td><td class="num">2</td><td class="num">1.7%</td></tr>
+          <tr><td style="color:var(--grey-600)">Unclassified</td><td class="num" style="color:var(--grey-600)">125</td><td class="num">50.6%</td><td class="num" style="color:var(--grey-600)">49</td><td class="num">42.2%</td></tr>
+          <tr style="border-top:2px solid var(--grey-200);font-weight:700"><td>Total Hot</td><td class="num">247</td><td></td><td class="num">116</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="notes">
+    <strong>SQL rate is consistent at ~30% in both periods</strong> (P2: 177/609 = 29.1% · P1: 87/282 = 30.9%) — the Meta lead quality is stable even as volume dropped 54%.
+    <strong>CPO leads dominate SQLs at ~53%</strong> in both periods — Meta is most effective for charging point operators, confirming the hw_new_aud creative targeting is accurate.
+    <strong>Revenue attribution note:</strong> Meta leads (CPO / Individual / Commercial) are tracked at the Contact level via Hardware Lead Status. The Bigin Deals pipeline separately tracks B2B RWA/apartment/fleet projects sourced through direct outreach — Meta does not currently feed that pipeline. Revenue from Meta leads is captured when hardware proposals close, but is not yet systematically entered into Bigin deals. <strong>Recommend linking Meta-sourced proposals to deal records to enable revenue attribution.</strong>
+  </div>
+
   <!-- FOOTER -->
   <div class="footer">
     Generated · Jun 19, 2026 &nbsp;|&nbsp; Source: Meta Ads Export + HubSpot CRM + Bigin CRM &nbsp;|&nbsp; Kazam Energy
